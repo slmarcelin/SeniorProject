@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>GVSU - Satellite Collar</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script src='//js.zapjs.com/js/download.js'></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous">
+    </script>
+<style>
+.square{
+    width: 50px;
+    height: 70px;
+    Background-color: blue;/* Your Color */
+    position: absolute;
+    border:1px solid black;
+    left: 20%;
+    top: 20%;
+}
+
+</style>
+
+</head>
+<body>
+  <div container style="padding:1%;">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+          <h2><b><style="margin-top:1px;">GVSU - Satellite Collar</style></h2></b>
+       </div>
+      <div class="panel-body">
+         <center><div class="square">
+            here
+         </div></center>
+        <p>...</p>
+      </div>
+     <div class="panel-footer">
+        <center> <p id="date"></p></center>
+        <center><h5><b><font color="#000099">2018 Satellite Collar</font></h5></center></b>
+     </div>
+
+     </div>
+  </div>
+
+</body>
+</html>
+
+<script>
+  var date = new Date();
+  document.getElementById("date").innerHTML = date.toDateString();
+</script>
